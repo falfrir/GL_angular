@@ -1,0 +1,25 @@
+<section class="container">
+    <section class="gl-title-wrap">
+        <h3 class="gl-title">Account list Angular</h3>
+        <button type="button" (click)="onClickCreateAccount()" class="btn btn-primary">Create account</button>
+    </section>
+
+    <gl-accounts-dashboard *ngIf="data"
+                            [title]="'Using Angular Components from Angular Code'"
+                            [total]="data.length" ></gl-accounts-dashboard>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Account name</th>
+            <th>E-mail</th>
+            <th>Status</th>
+            <th>Start date</th>
+            <th>Expiration date</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</section>

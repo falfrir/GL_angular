@@ -1,0 +1,34 @@
+$gl-body-bg: #ffffff;
+$gl-item-bg: #414042;
+$gl-base-bg: #F0F3F4;
+$gl-content-bg: #F3F4F5;
+$gl-font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$gl-grid-columns: 60;
+$gl-grid-gutter-width: 20px;
+$gl-border-radius: 3px;
+
+$gl-font-small-size: 10px;
+$gl-font-alternative-small-size: 11px;
+$gl-font-semi-small-size: 12px;
+$gl-font-alternative-base-size: 13px;
+$gl-font-base-size: 14px;
+$gl-font-medium-size: 16px;
+$gl-font-semi-large-size: 18px;
+$gl-font-large-size: 20px;
+
+$gl-text-color: #414042;
+$gl-text-color-darkGrey: #878a8d;
+$gl-text-color-grey: #B2B5B8;
+$gl-text-color-lightGrey: #F3F4F5;
+
+$gl-active-color: #f37037;
+
+$gl-primary-color: $gl-active-color;
+$gl-primary-disabled-color: lighten($gl-primary-color, 15%);
+$gl-primary-hover-color: darken($gl-primary-color, 7%);
+$gl-primary-active-color: darken($gl-primary-color, 13%);
+
+$gl-padding-base: $gl-grid-gutter-width;
+$gl-margin-base: $gl-grid-gutter-width;
+$gl-header: 60px;

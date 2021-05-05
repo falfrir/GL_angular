@@ -1,0 +1,21 @@
+$font-family-base: $gl-font-base-size;
+
+$body-color: $gl-text-color;
+
+$grid-columns: $gl-grid-columns;
+$grid-gutter-width: $gl-grid-gutter-width;
+
+$border-radius: $gl-border-radius;
+
+$input-color: $gl-text-color;
+
+//link
+$link-color: #fff;
+$link-hover-color: $gl-primary-color;
+$link-hover-decoration: none;
+
+//Form
+$label-margin-bottom: 0 !default;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+

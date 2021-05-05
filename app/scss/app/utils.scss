@@ -1,0 +1,39 @@
+// -------half padding ------
+.gl-half-pl {
+  padding-left: $gl-padding-base/2;;
+}
+.gl-r-padding {
+  padding-right: $gl-padding-base;
+}
+.gl-l-padding {
+  padding-left: $gl-padding-base;
+}
+// -------gl-margin half margin ------
+.gl-r-margin {
+  margin-right: $gl-margin-base;
+}
+.gl-l-margin {
+  margin-left: $gl-margin-base;
+}
+
+.gl-half-r-margin {
+  margin-right: $gl-margin-base/2;
+}
+
+.gl-half-l-margin {
+  margin-left: $gl-margin-base/2;
+}
+.gl-half-t-margin {
+  margin-top: $gl-margin-base/2;
+}
+.gl-half-b-margin {
+  margin-bottom: $gl-margin-base/2;
+}
+//--- cursor ----
+.gl-cursor-cp {
+  cursor: pointer;
+}
+
+.gl-cursor-default {
+  cursor: default;
+}
